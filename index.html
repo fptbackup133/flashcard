@@ -1,0 +1,90 @@
+<! DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcard Learning App - Unit 5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📚 Flashcard Learning App</h1>
+            <!-- <p class="subtitle">Unit 5 - English Vocabulary</p> -->
+            <div class="upload-section">
+                <label for="file-upload" class="upload-btn">
+                    <span class="btn-icon">📁</span> Upload JSON File
+                </label>
+                <input type="file" id="file-upload" accept=".json" style="display: none;">
+                <span class="file-name" id="file-name">No file selected</span>
+            </div>
+        </header>
+
+        <div class="stats">
+            <div class="stat-item">
+                <span class="stat-label">Card:</span>
+                <span class="stat-value" id="current-card">1</span>
+                <span class="stat-value"> / </span>
+                <span class="stat-value" id="total-cards">0</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">Progress:</span>
+                <span class="stat-value" id="progress-percent">0%</span>
+            </div>
+        </div>
+
+        <div class="flashcard-container">
+            <div class="flashcard" id="flashcard">
+                <div class="flashcard-inner">
+                    <div class="flashcard-front">
+                        <div class="word-type" id="word-type">N</div>
+                        <h2 class="word" id="word">Loading...</h2>
+                        <button class="speaker-btn" id="speaker-btn" title="Listen to pronunciation">
+                            🔊
+                        </button>
+                        <p class="pronunciation" id="pronunciation">/pronunciation/</p>
+                        <p class="flip-hint">👆 Click to flip</p>
+                    </div>
+                    <div class="flashcard-back">
+                        <h2 class="meaning" id="meaning">Nghĩa tiếng Việt</h2>
+                        <div class="back-info">
+                            <p class="word-small" id="word-back">Word</p>
+                            <p class="pronunciation-small" id="pronunciation-back">/pronunciation/</p>
+                        </div>
+                        <p class="flip-hint">👆 Click to flip back</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button class="btn btn-secondary" id="prev-btn">
+                <span class="btn-icon">◀</span> Previous
+            </button>
+            <button class="btn btn-primary" id="shuffle-btn">
+                <span class="btn-icon">🔀</span> Shuffle
+            </button>
+            <button class="btn btn-secondary" id="next-btn">
+                Next <span class="btn-icon">▶</span>
+            </button>
+        </div>
+
+        <div class="progress-bar">
+            <div class="progress-fill" id="progress-fill"></div>
+        </div>
+
+        <div class="mode-toggle">
+            <button class="btn btn-small" id="auto-play-btn">
+                <span class="btn-icon">▶️</span> Auto Play
+            </button>
+            <label class="toggle-label">
+                <input type="checkbox" id="auto-flip-toggle">
+                <span class="toggle-slider"></span>
+                <span class="toggle-text">Auto Flip</span>
+            </label>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,536 @@
+[
+    {
+        "word": "Single room",
+        "type": "N",
+        "pronunciation": "/ˈsɪŋɡl ruːm/",
+        "meaning": "Phòng đơn"
+    },
+    {
+        "word": "Adjoining room",
+        "type": "N",
+        "pronunciation": "/əˈdʒɔɪnɪŋ ruːm/",
+        "meaning": "Phòng liền kề"
+    },
+    {
+        "word": "Connecting room",
+        "type": "N",
+        "pronunciation": "/kəˈnektɪŋ ruːm/",
+        "meaning": "Phòng kết nối"
+    },
+    {
+        "word": "Triple room",
+        "type": "N",
+        "pronunciation": "/ˈtrɪpl ruːm/",
+        "meaning": "Phòng ba người"
+    },
+    {
+        "word": "Suite",
+        "type": "N",
+        "pronunciation": "/swiːt/",
+        "meaning": "Phòng cao cấp"
+    },
+    {
+        "word": "King-size bed",
+        "type": "N",
+        "pronunciation": "/kɪŋ saɪz bed/",
+        "meaning": "Giường cỡ lớn"
+    },
+    {
+        "word": "Queen-size bed",
+        "type": "N",
+        "pronunciation": "/kwiːn saɪz bed/",
+        "meaning": "Giường đôi lớn"
+    },
+    {
+        "word": "Twin-size bed",
+        "type": "N",
+        "pronunciation": "/twɪn saɪz bed/",
+        "meaning": "Giường đôi"
+    },
+    {
+        "word": "Deluxe room",
+        "type": "N",
+        "pronunciation": "/dɪˈlʌks ruːm/",
+        "meaning": "Phòng sang trọng"
+    },
+    {
+        "word": "Check in",
+        "type": "V/N",
+        "pronunciation": "/tʃek ɪn/",
+        "meaning": "Nhận phòng"
+    },
+    {
+        "word": "Receptionist",
+        "type": "N",
+        "pronunciation": "/rɪˈsepʃənɪst/",
+        "meaning": "Nhân viên lễ tân"
+    },
+    {
+        "word": "Bell boy",
+        "type": "N",
+        "pronunciation": "/bel bɔɪ/",
+        "meaning": "Nhân viên xách hành lý"
+    },
+    {
+        "word": "Porter",
+        "type": "N",
+        "pronunciation": "/ˈpɔːtə/",
+        "meaning": "Người chở hành lý"
+    },
+    {
+        "word": "Carry-on bag",
+        "type": "N",
+        "pronunciation": "/ˈkæri ɒn bæɡ/",
+        "meaning": "Hành lý xách tay"
+    },
+    {
+        "word": "Passport",
+        "type": "N",
+        "pronunciation": "/ˈpɑːspɔːt/",
+        "meaning": "Hộ chiếu"
+    },
+    {
+        "word": "Boarding pass",
+        "type": "N",
+        "pronunciation": "/ˈbɔːdɪŋ pɑːs/",
+        "meaning": "Thẻ lên máy bay"
+    },
+    {
+        "word": "Departure lounge",
+        "type": "N",
+        "pronunciation": "/dɪˈpɑːtʃə(r) laʊndʒ/",
+        "meaning": "Phòng chờ khởi hành"
+    },
+    {
+        "word": "Depart",
+        "type": "V",
+        "pronunciation": "/dɪˈpɑːt/",
+        "meaning": "Khởi hành"
+    },
+    {
+        "word": "Runway",
+        "type": "N",
+        "pronunciation": "/ˈrʌnweɪ/",
+        "meaning": "Đường băng"
+    },
+    {
+        "word": "Baggage claim",
+        "type": "N",
+        "pronunciation": "/ˈbæɡɪdʒ kleɪm/",
+        "meaning": "Bảng chuyển, nơi nhận hành lý ký gửi"
+    },
+    {
+        "word": "Pilot",
+        "type": "N",
+        "pronunciation": "/ˈpaɪlət/",
+        "meaning": "Phi công"
+    },
+    {
+        "word": "Flight attendant",
+        "type": "N",
+        "pronunciation": "/flaɪt əˈtɛndənt/",
+        "meaning": "Tiếp viên hàng không"
+    },
+    {
+        "word": "Life vest",
+        "type": "N",
+        "pronunciation": "/laɪf vest/",
+        "meaning": "Áo cứu phao"
+    },
+    {
+        "word": "Duty free",
+        "type": "N",
+        "pronunciation": "/ˈdjuːti friː/",
+        "meaning": "Cửa hàng miễn thuế"
+    },
+    {
+        "word": "Economy class",
+        "type": "N",
+        "pronunciation": "/ɪˈkɒnəmi klɑːs/",
+        "meaning": "Hạng phổ thông"
+    },
+    {
+        "word": "Business class",
+        "type": "N",
+        "pronunciation": "/ˈbɪznəs klɑːs/",
+        "meaning": "Hạng thương gia"
+    },
+    {
+        "word": "Aisle seat",
+        "type": "N",
+        "pronunciation": "/aɪl siːt/",
+        "meaning": "Ghế sát lối đi"
+    },
+    {
+        "word": "Window seat",
+        "type": "N",
+        "pronunciation": "/ˈwɪndəʊ siːt/",
+        "meaning": "Ghế cửa sổ"
+    },
+    {
+        "word": "Weapon",
+        "type": "N",
+        "pronunciation": "/ˈwepən/",
+        "meaning": "Vũ khí"
+    },
+    {
+        "word": "Firearm",
+        "type": "N",
+        "pronunciation": "/ˈfaɪərɑːm/",
+        "meaning": "Súng cầm tay"
+    },
+    {
+        "word": "Flammable material",
+        "type": "N",
+        "pronunciation": "/ˈflæməbl məˈtɪəriəl/",
+        "meaning": "Vật liệu dễ cháy"
+    },
+    {
+        "word": "Scale",
+        "type": "N",
+        "pronunciation": "/skeɪl/",
+        "meaning": "cân"
+    },
+    {
+        "word": "Electronic device",
+        "type": "N",
+        "pronunciation": "/ɪˌlekˈtrɒnɪk dɪˈvaɪs/",
+        "meaning": "Thiết bị điện tử"
+    },
+    {
+        "word": "Tray",
+        "type": "N",
+        "pronunciation": "/treɪ/",
+        "meaning": "Cái khay"
+    },
+    {
+        "word": "Prohibited",
+        "type": "ADJ",
+        "pronunciation": "/prəˈhɪbɪtɪd/",
+        "meaning": "cấm"
+    },
+    {
+        "word": "Metal detector",
+        "type": "N",
+        "pronunciation": "/ˈmetl dɪˈtektə(r)/",
+        "meaning": "Máy dò kim loại"
+    },
+    {
+        "word": "Wake-up call",
+        "type": "N",
+        "pronunciation": "/weɪk ʌp kɔːl/",
+        "meaning": "Cuộc gọi đánh thức"
+    },
+    {
+        "word": "Complimentary breakfast",
+        "type": "N",
+        "pronunciation": "/ˌkɒmplɪˈmentəri ˈbrekfəst/",
+        "meaning": "Bữa sáng miễn phí"
+    },
+    {
+        "word": "24-hour front desk service",
+        "type": "N",
+        "pronunciation": "/ˈtwenti fɔːr aʊər frʌnt desk ˈsɜːvɪs/",
+        "meaning": "Dịch vụ lễ tân 24/7"
+    },
+    {
+        "word": "Hotel services",
+        "type": "N",
+        "pronunciation": "/həʊˈtel ˈsɜːvɪsɪz/",
+        "meaning": "Dịch vụ khách sạn"
+    },
+    {
+        "word": "Hotel amenities",
+        "type": "N",
+        "pronunciation": "/həʊˈtel əˈmenɪtiz/",
+        "meaning": "Tiện nghi của khách sạn"
+    },
+    {
+        "word": "Gym",
+        "type": "N",
+        "pronunciation": "/dʒɪm/",
+        "meaning": "Phòng tập thể hình"
+    },
+    {
+        "word": "Have a reservation",
+        "type": "PHR",
+        "pronunciation": "/hæv ə rɛzəˈveɪʃn/",
+        "meaning": "Đặt phòng"
+    },
+    {
+        "word": "Vacancy",
+        "type": "N",
+        "pronunciation": "/ˈveɪkənsi/",
+        "meaning": "Phòng trống"
+    },
+    {
+        "word": "Well-equipped",
+        "type": "ADJ",
+        "pronunciation": "/ˌwel ɪˈkwɪpt/",
+        "meaning": "Được trang bị đầy đủ"
+    },
+    {
+        "word": "Access the WIFI",
+        "type": "PHR",
+        "pronunciation": "/ˈækses ðə ˈwaɪfaɪ/",
+        "meaning": "Truy cập Wi-Fi"
+    },
+    {
+        "word": "Indoor pool",
+        "type": "N",
+        "pronunciation": "/ˈɪndɔː pul/",
+        "meaning": "Hồ bơi trong nhà"
+    },
+    {
+        "word": "Room service",
+        "type": "N",
+        "pronunciation": "/ruːm ˈsɜːvɪs/",
+        "meaning": "Dịch vụ phòng"
+    },
+    {
+        "word": "Fitness centre",
+        "type": "N",
+        "pronunciation": "/ˈfɪtnəs ˈsentə/",
+        "meaning": "Trung tâm thể dục"
+    },
+    {
+        "word": "Procedure",
+        "type": "N",
+        "pronunciation": "/prəˈsiːdʒə(r)/",
+        "meaning": "Thủ tục"
+    },
+    {
+        "word": "Check-in counter",
+        "type": "N",
+        "pronunciation": "/tʃek ɪn ˈkaʊntə(r)/",
+        "meaning": "Quầy check-in, quầy quy trình đăng ký xác nhận"
+    },
+    {
+        "word": "Security officer",
+        "type": "N",
+        "pronunciation": "/sɪˈkjʊərəti ˈɒfɪsə(r)/",
+        "meaning": "Nhân viên an ninh"
+    },
+    {
+        "word": "Customs officer",
+        "type": "N",
+        "pronunciation": "/ˈkʌstəmz ˈɒfɪsə(r)/",
+        "meaning": "Nhân viên hải quan"
+    },
+    {
+        "word": "Immigration officer",
+        "type": "N",
+        "pronunciation": "/ˌɪmɪˈɡreɪʃn ˈɒfɪsə(r)/",
+        "meaning": "Nhân viên, cán bộ xuất nhập cảnh"
+    },
+    {
+        "word": "Luggage",
+        "type": "N",
+        "pronunciation": "/ˈlʌɡɪdʒ/",
+        "meaning": "Hành lý"
+    },
+    {
+        "word": "Delay",
+        "type": "N/V",
+        "pronunciation": "/ˈdreɪ/",
+        "meaning": "Trì hoãn"
+    },
+    {
+        "word": "Cancellation",
+        "type": "N",
+        "pronunciation": "/ˌkænsəˈleɪʃn/",
+        "meaning": "Sự hủy bỏ"
+    },
+    {
+        "word": "Announcement",
+        "type": "N",
+        "pronunciation": "/əˈnaʊnsmənt/",
+        "meaning": "Thông báo"
+    },
+    {
+        "word": "Barrier",
+        "type": "N",
+        "pronunciation": "/ˈbæriə(r)/",
+        "meaning": "Rào chắn"
+    },
+    {
+        "word": "Layover",
+        "type": "N",
+        "pronunciation": "/ˈleɪəʊvə(r)/",
+        "meaning": "Điểm dừng tạm thời"
+    },
+    {
+        "word": "Connecting flight",
+        "type": "N",
+        "pronunciation": "/kəˈnektɪŋ flaɪt/",
+        "meaning": "Chuyến bay nối chuyến"
+    },
+    {
+        "word": "Transit flight",
+        "type": "N",
+        "pronunciation": "/ˈtrænzɪt flaɪt/",
+        "meaning": "Chuyến bay quá cảnh"
+    },
+    {
+        "word": "Headache",
+        "type": "N",
+        "pronunciation": "/ˈhedeɪk/",
+        "meaning": "Đau đầu"
+    },
+    {
+        "word": "Backache",
+        "type": "N",
+        "pronunciation": "/ˈbækeɪk/",
+        "meaning": "Đau lưng"
+    },
+    {
+        "word": "Toothache",
+        "type": "N",
+        "pronunciation": "/ˈtuːθeɪk/",
+        "meaning": "Đau răng"
+    },
+    {
+        "word": "Stomachache",
+        "type": "N",
+        "pronunciation": "/ˈstʌməkeɪk/",
+        "meaning": "Đau bụng"
+    },
+    {
+        "word": "Cold",
+        "type": "N",
+        "pronunciation": "/kəʊld/",
+        "meaning": "Cảm lạnh"
+    },
+    {
+        "word": "Flu",
+        "type": "N",
+        "pronunciation": "/fluː/",
+        "meaning": "Cúm"
+    },
+    {
+        "word": "Broken leg",
+        "type": "N",
+        "pronunciation": "/ˈbrəʊkən leɡ/",
+        "meaning": "Gãy chân"
+    },
+    {
+        "word": "Food poisoning",
+        "type": "N",
+        "pronunciation": "/fuːd ˈpɔɪzənɪŋ/",
+        "meaning": "Ngộ độc thực phẩm"
+    },
+    {
+        "word": "Sore throat",
+        "type": "N",
+        "pronunciation": "/sɔː ˈθrəʊt/",
+        "meaning": "Đau họng"
+    },
+    {
+        "word": "Runny nose",
+        "type": "N",
+        "pronunciation": "/ˈrʌni nəʊz/",
+        "meaning": "Sổ mũi"
+    },
+    {
+        "word": "Cough",
+        "type": "V",
+        "pronunciation": "/kɒf/",
+        "meaning": "Ho"
+    },
+    {
+        "word": "Fever",
+        "type": "N",
+        "pronunciation": "/ˈfiːvə/",
+        "meaning": "Sốt"
+    },
+    {
+        "word": "Sneeze",
+        "type": "V",
+        "pronunciation": "/sniːz/",
+        "meaning": "Hắt hơi"
+    },
+    {
+        "word": "Vomit",
+        "type": "V",
+        "pronunciation": "/ˈvɒmɪt/",
+        "meaning": "Nôn mửa"
+    },
+    {
+        "word": "Dizzy",
+        "type": "ADJ",
+        "pronunciation": "/ˈdɪzi/",
+        "meaning": "Chóng mặt"
+    },
+    {
+        "word": "Nauseous",
+        "type": "ADJ",
+        "pronunciation": "/ˈnɔːziəs/",
+        "meaning": "Buồn nôn"
+    },
+    {
+        "word": "Symptoms",
+        "type": "N",
+        "pronunciation": "/ˈsɪmptəmz/",
+        "meaning": "Triệu chứng"
+    },
+    {
+        "word": "Take medicine",
+        "type": "PHR",
+        "pronunciation": "/teɪk ˈmedsɪn/",
+        "meaning": "Uống thuốc"
+    },
+    {
+        "word": "Take pills",
+        "type": "PHR",
+        "pronunciation": "/teɪk pɪlz/",
+        "meaning": "Uống thuốc"
+    },
+    {
+        "word": "Drink herbal tea",
+        "type": "PHR",
+        "pronunciation": "/drɪŋk ˈhɜːbl tiː/",
+        "meaning": "Uống trà thảo mộc"
+    },
+    {
+        "word": "Take a rest",
+        "type": "PHR",
+        "pronunciation": "/teɪk ə rest/",
+        "meaning": "Nghỉ ngơi"
+    },
+    {
+        "word": "Regular check-ups",
+        "type": "PHR",
+        "pronunciation": "/ˈreɡjʊlə ˈtʃek ʌps/",
+        "meaning": "Khám sức khỏe định kỳ"
+    },
+    {
+        "word": "Make an appointment",
+        "type": "PHR",
+        "pronunciation": "/meɪk ən əˈpɔɪntmənt/",
+        "meaning": "Đặt lịch hẹn"
+    },
+    {
+        "word": "Put (something) down",
+        "type": "PHR",
+        "pronunciation": "/put (ˈsʌmθɪŋ) daʊn/",
+        "meaning": "Ghi chú, đánh dấu"
+    },
+    {
+        "word": "Schedule",
+        "type": "N/V",
+        "pronunciation": "/ˈʃedjuːl/",
+        "meaning": "Lịch trình/ Lên lịch"
+    },
+    {
+        "word": "Visiting hours",
+        "type": "PHR",
+        "pronunciation": "/ˈvɪzɪtɪŋ aʊəz/",
+        "meaning": "Giờ thăm viếng"
+    },
+    {
+        "word": "Look after",
+        "type": "PHR",
+        "pronunciation": "/lʊk ˈɑːftə/",
+        "meaning": "Chăm sóc"
+    }
+]
