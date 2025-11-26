@@ -2,7 +2,7 @@
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     
     <!-- Mobile Web App Meta Tags -->
     <meta name="mobile-web-app-capable" content="yes">
@@ -30,7 +30,7 @@
     <!-- iOS Icons -->
     <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%23667eea'/><text x='50' y='50' font-size='60' text-anchor='middle' dy='.3em' fill='white'>📚</text></svg>">
     
-    <title>Flashcard Learning App - Unit 5</title>
+    <title>Flashcard Learning App</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -44,6 +44,14 @@
                 </label>
                 <input type="file" id="file-upload" accept=".json" style="display: none;">
                 <span class="file-name" id="file-name">No file selected</span>
+            </div>
+            <div class="mode-switch">
+                <button class="btn btn-mode" id="study-mode-btn">
+                    <span class="btn-icon">📖</span> Study Mode
+                </button>
+                <button class="btn btn-mode" id="test-mode-btn">
+                    <span class="btn-icon">✏️</span> Test Mode
+                </button>
             </div>
         </header>
 
@@ -109,6 +117,102 @@
                 <span class="toggle-slider"></span>
                 <span class="toggle-text">Auto Flip</span>
             </label>
+        </div>
+
+        <!-- Test Mode Section -->
+        <div class="test-mode-container" id="test-mode-container" style="display: none;">
+            <!-- Test Setup -->
+            <div class="test-setup" id="test-setup">
+                <h2 class="test-title">⚡ Quiz Setup</h2>
+                <div class="test-options">
+                    <div class="option-group">
+                        <label class="option-label">Number of Questions:</label>
+                        <div class="option-buttons">
+                            <button class="option-btn active" data-questions="10">10</button>
+                            <button class="option-btn" data-questions="20">20</button>
+                            <button class="option-btn" data-questions="30">30</button>
+                            <button class="option-btn" data-questions="all">All</button>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary btn-large" id="start-test-btn">
+                        <span class="btn-icon">🚀</span> Start Quiz
+                    </button>
+                </div>
+            </div>
+
+            <!-- Test Questions -->
+            <div class="test-questions" id="test-questions" style="display: none;">
+                <div class="test-header">
+                    <div class="test-progress-info">
+                        <span class="test-question-number">Question <span id="test-current">1</span> / <span id="test-total">10</span></span>
+                        <span class="test-score">Score: <span id="test-score">0</span></span>
+                    </div>
+                    <div class="test-progress-bar">
+                        <div class="test-progress-fill" id="test-progress-fill"></div>
+                    </div>
+                </div>
+
+                <div class="question-card">
+                    <div class="question-word" id="question-word">Loading...</div>
+                    <div class="question-pronunciation" id="question-pronunciation">/pronunciation/</div>
+                    <button class="speaker-btn-test" id="speaker-btn-test" title="Listen to pronunciation">
+                        🔊
+                    </button>
+                </div>
+
+                <div class="answer-options" id="answer-options">
+                    <!-- Answer buttons will be generated here -->
+                </div>
+
+                <button class="btn btn-secondary" id="next-question-btn" style="display: none;">
+                    Next Question <span class="btn-icon">▶</span>
+                </button>
+            </div>
+
+            <!-- Test Results -->
+            <div class="test-results" id="test-results" style="display: none;">
+                <div class="results-header">
+                    <h2 class="results-title">🎉 Quiz Complete!</h2>
+                    <div class="results-score">
+                        <div class="score-circle">
+                            <svg width="200" height="200" viewBox="0 0 200 200">
+                                <circle cx="100" cy="100" r="90" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="15"/>
+                                <circle id="score-circle" cx="100" cy="100" r="90" fill="none" stroke="#4caf50" stroke-width="15"
+                                    stroke-dasharray="565. 48" stroke-dashoffset="565. 48" stroke-linecap="round"
+                                    transform="rotate(-90 100 100)" style="transition: stroke-dashoffset 1s ease"/>
+                                <text x="100" y="100" text-anchor="middle" dy=".3em" fill="white" font-size="48" font-weight="bold" id="score-percentage">0%</text>
+                            </svg>
+                        </div>
+                        <div class="score-details">
+                            <p class="score-text">You got <span id="correct-answers">0</span> out of <span id="total-questions">0</span> correct! </p>
+                            <p class="score-grade" id="score-grade">Excellent!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="results-actions">
+                    <button class="btn btn-primary" id="review-mistakes-btn">
+                        <span class="btn-icon">🔍</span> Review Mistakes
+                    </button>
+                    <button class="btn btn-secondary" id="retry-mistakes-btn">
+                        <span class="btn-icon">🔄</span> Retry Wrong Answers
+                    </button>
+                    <button class="btn btn-secondary" id="new-test-btn">
+                        <span class="btn-icon">✨</span> New Quiz
+                    </button>
+                    <button class="btn btn-secondary" id="back-to-study-btn">
+                        <span class="btn-icon">📖</span> Back to Study
+                    </button>
+                </div>
+
+                <!-- Review Section -->
+                <div class="review-section" id="review-section" style="display: none;">
+                    <h3 class="review-title">📋 Wrong Answers Review</h3>
+                    <div class="review-list" id="review-list">
+                        <!-- Review items will be generated here -->
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
